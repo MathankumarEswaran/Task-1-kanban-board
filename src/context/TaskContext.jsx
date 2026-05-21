@@ -3,11 +3,11 @@ import { v4 as uuidv4 } from 'uuid'
 
 const INITIAL_TASKS = {
   todo: [
-    { id: uuidv4(), title: 'Design wireframes', description: 'Create low-fidelity wireframes for all screens.', priority: 'high', tags: ['design', 'ux'], deadline: '2025-06-01', status: 'todo' },
-    { id: uuidv4(), title: 'Set up project repo', description: 'Initialize GitHub repo with README and folder structure.', priority: 'medium', tags: ['setup'], deadline: '', status: 'todo' },
+    { id: uuidv4(), title: 'Design wireframes', description: 'Create low-fidelity wireframes for all screens.', priority: 'high', status: 'todo' },
+    { id: uuidv4(), title: 'Set up project repo', description: 'Initialize GitHub repo with README and folder structure.', priority: 'medium', tags: ['setup'], status: 'todo' },
   ],
   inprogress: [
-    { id: uuidv4(), title: 'Build Kanban board', description: 'Implement drag-and-drop task board with React.', priority: 'high', tags: ['react', 'frontend'], deadline: '2025-05-25', status: 'inprogress' },
+    { id: uuidv4(), title: 'Build Kanban board', description: 'Implement drag-and-drop task board with React.', priority: 'high', tags: ['react', 'frontend'], status: 'inprogress' },
   ],
   done: [
     { id: uuidv4(), title: 'Project kickoff meeting', description: 'Align on goals, scope, and timeline.', priority: 'low', tags: ['planning'], deadline: '', status: 'done' },

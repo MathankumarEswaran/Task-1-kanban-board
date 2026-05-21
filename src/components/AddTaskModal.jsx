@@ -7,7 +7,7 @@ const STATUSES = [
   { id: 'inprogress', label: 'In Progress' },
   { id: 'done', label: 'Done' },
 ]
-const EMPTY = { title: '', description: '', priority: 'medium', tags: [], deadline: '', status: 'todo' }
+const EMPTY = { title: '', description: '', priority: 'medium', tags: [], status: 'todo' }
 
 export default function AddTaskModal({ defaultStatus, onClose }) {
   const { addTask } = useTasks()
